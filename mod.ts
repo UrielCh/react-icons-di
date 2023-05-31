@@ -25,19 +25,27 @@
  * 
  * ## Direct import sample
  * 
- * `import { DiAndroid } from "https://deno.land/x/react_icons_di@1.0.1/mod.ts"`
+ * ```ts
+ * import { DiAndroid } from "https://deno.land/x/react_icons_di@1.0.1/mod.ts"
+ * ```
  * 
  * ## import_map import sample
  * 
- * `import { DiAndroid } from "react-icons/di"`
+ * ```ts
+ * import { DiAndroid } from "react-icons/di"
+ * ```
  * 
  * ## minimal import
  * 
- * `import { DiAndroid } from "react-icons/di/DiAndroid.ts"`
+ * ```ts
+ * import { DiAndroid } from "react-icons/di/DiAndroid.ts"
+ * ```
  * 
- * ## minimal import default
+ * ## minimal import using default export
  * 
- * `import DiAndroid from "react-icons/di/DiAndroid.ts"`
+ * ```ts
+ * import DiAndroid from "react-icons/di/DiAndroid.ts"
+ * ```
  * 
  * @module
  */
