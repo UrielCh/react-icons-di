@@ -15,8 +15,8 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/di":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-di@1.0.8/mod.ts",
-    "react-icons/di/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-di@1.0.8/ico/",
+    "react-icons/di":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-di@1.0.9/mod.ts",
+    "react-icons/di/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-di@1.0.9/ico/",
   }
 }
 ```
@@ -24,7 +24,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib di
 
 ```ts
-import { DiAndroid } from "https://deno.land/x/react_icons_di@1.0.8/mod.ts"
+import { DiAndroid } from "https://deno.land/x/react_icons_di@1.0.9/mod.ts"
 ```
 
 ## import_map import an icon from all icons
