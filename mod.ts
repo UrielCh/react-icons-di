@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import DiAndroid from "react-icons/di/DiAndroid.ts"
+ * import DiAndroid from "react-icons/di/DiAndroid"
  * ```
  * @module
  * 
