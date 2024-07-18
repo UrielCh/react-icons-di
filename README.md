@@ -8,39 +8,56 @@
 
 [See available icons here](https://react-icons.deno.dev/di)
 
-## import_map.json
+## install packahe
 
-For a transparent usage:
-
-```json
-{
-  "imports": {
-    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
-    "preact": "npm:preact@10.22.1",
-    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
-    "preact/hooks": "npm:preact@10.22.1/hooks",
-    "react-icons/di": "jsr:@preact-icons/di@^1.0.11/mod.ts",
-    "react-icons/di/": "jsr:@preact-icons/di@^1.0.11/ico/",
-  }
-}
+```bash
+deno add @preact-icons/di
+dnpx jsr add @preact-icons/di
+pnpm dlx jsr add @preact-icons/di
+bunx jsr add @preact-icons/di
 ```
 
-## Import an icon without import_map by and afer loading all icons from the lib di
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
 
-```ts
-import { DiAndroid } from "jsr:preact-icons/di@1.0.11/mod.ts"
+
+# Devicons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/di)](https://jsr.io/@preact-icons/di)
+
+**License** [MIT](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE)
+
+**Project** [https://vorillaz.github.io/devicons/](https://vorillaz.github.io/devicons/)
+
+[See available icons here](https://react-icons.deno.dev/di)
+
+## install packahe
+
+```bash
+deno add @preact-icons/di
+dnpx jsr add @preact-icons/di
+pnpm dlx jsr add @preact-icons/di
+bunx jsr add @preact-icons/di
 ```
 
-## import_map import an icon from all icons
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
+
+
+## import an icon from all icons
 
 ```ts
-import { DiAndroid } from "react-icons/di"
+import { DiAndroid } from "@preact-icons/di"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { DiAndroid } from "react-icons/di/DiAndroid.ts"
+import { DiAndroid } from "react-icons/di/DiAndroid"
 ```
 
 or using default export
