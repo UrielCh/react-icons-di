@@ -2,7 +2,7 @@
   "lock": false,
   "name": "@preact-icons/di",
   "license": "MIT",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
     "./DiAndroid": "./ico/DiAndroid.ts",
