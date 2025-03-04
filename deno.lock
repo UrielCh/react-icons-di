@@ -1,0 +1,8 @@
+{
+  "version": "4",
+  "remote": {
+    "https://esm.sh/preact@10.15.1/denonext/jsx-runtime.mjs": "e88da38f30b0e0ca9c1bd4199b5a899c5923f635fd19a2906a7da1584da6db46",
+    "https://esm.sh/preact@10.15.1/denonext/preact.mjs": "1b48be13bc92da57070a420d1cf221c6ab9b532e94b14e12b3f5a5505faccc69",
+    "https://esm.sh/preact@10.15.1/jsx-runtime": "26457cd330079695fa910d32ac372dba5aa6fae3b9ca251184da9fff44c445eb"
+  }
+}
